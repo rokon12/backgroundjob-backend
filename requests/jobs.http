@@ -1,0 +1,13 @@
+# POST jobs
+POST localhost:8080/jobs
+Content-Type: application/json
+
+{
+  "jobName": "Job #1",
+  "payload": "Payload",
+  "callbackUrl": "https://webhook.site/b89376e9-a8bf-4ede-929f-04a2568f85e0"
+}
+
+### Get all
+GET localhost:8080/jobs
+
